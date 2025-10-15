@@ -2,6 +2,7 @@
 This project demonstrates a comprehensive SQL-based analysis of ride booking data for Ola, focusing on customer behavior, driver performance, payment methods, and ride outcomes. It includes a series of optimized SQL views and queries designed to help managers and analysts extract actionable insights with minimal effort.
 # 📂 Database Setup
 CREATE DATABASE Ola;
+
 USE Ola;
 
 All views are created from a central bookings table, assuming it contains relevant fields such as Booking_ID, Customer_ID, Vehicle_Type, Booking_Status, Ride_Distance, Driver_Ratings, Customer_Rating, Payment_Method, Booking_Value, Incomplete_Rides, Incomplete_Rides_Reason, and cancelled_Rides_by_Driver.
